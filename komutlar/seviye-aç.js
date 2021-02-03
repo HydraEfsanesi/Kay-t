@@ -43,7 +43,7 @@ exports.run = async(client, message, args) => {
   .setColor('RANDOM')
   message.channel.send(codeming)
  
-message.guild.owner.send('Seviye sistemi **'+message.member.user.username+'** ('+message.member.id+') tarafından aktifleştirildi!\n `Suspects Seviye Sistemi`')
+message.guild.owner.send('Seviye sistemi **'+message.member.user.username+'** ('+message.member.id+') tarafından aktifleştirildi!\n `The Sky Rewards #Legit`')
   
   
 db.set(`seviyeacik_${message.guild.id}`, 'açık')

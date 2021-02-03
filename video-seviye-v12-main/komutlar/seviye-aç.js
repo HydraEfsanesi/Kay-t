@@ -39,11 +39,11 @@ exports.run = async(client, message, args) => {
   .addField('Seviye Log Kanalı:', kontrol, true)
   .addField('Mesaj Başı Verilecek XP:', kontrol2, true)
   .addField('Seviye Rol:', kontrol3)
-  .setFooter('Suspects Seviye Sistemi')
+  .setFooter('The Sky Rewards #Legit')
   .setColor('RANDOM')
   message.channel.send(codeming)
  
-message.guild.owner.send('Seviye sistemi **'+message.member.user.username+'** ('+message.member.id+') tarafından aktifleştirildi!\n `Suspects Seviye Sistemi`')
+message.guild.owner.send('Seviye sistemi **'+message.member.user.username+'** ('+message.member.id+') tarafından aktifleştirildi!\n `The Sky Rewards #Legit`')
   
   
 db.set(`seviyeacik_${message.guild.id}`, 'açık')

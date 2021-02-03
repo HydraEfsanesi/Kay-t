@@ -33,7 +33,7 @@ exports.run = async(client, message, args) => {
   .addField('Mesaj Başı Verilecek XP:', kontrol2, true)
   .addField('Seviye Rol', kontrol3, true)
   .addField('Seviye Rol Leveli:', kontrol4, true)
-  .setFooter('Suspects Seviye Sistemi')
+  .setFooter('The Sky Rewards #Legit')
   message.channel.send(ayarlar)
  
 

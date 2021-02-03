@@ -13,7 +13,7 @@ const queue = new Map();
 var prefix = ayarlar.prefix;
 const { GiveawaysManager } = require('discord-giveaways');
 
-const oynuyor = `Suspects Tr'de ilk v12 Seviye Altyapısı`
+const oynuyor = `The Sky Rewards #Legit`
 
 //   ${prefix}help| ${prefix}yardım
 var prefix = ayarlar.prefix;
@@ -127,7 +127,7 @@ client.on("ready", async () => {
   client.user.setStatus("oynuyor");
   client.user.setActivity(oynuyor, {
     type: "STREAMING",
-    url: "https://twitch.tv/merziki"
+    url: "https://www.twitch.tv/yagizyt_01"
   });
 });
 //------------Seviye-------------------//

@@ -37,7 +37,7 @@ exports.run = async(client, message, args) => {
   message.channel.send(selin)
   
   db.set(`verilecekxp_${message.guild.id}`, değer)
-  message.guild.owner.send('Seviye sistemi **'+message.member.user.username+'** ('+message.member.id+') tarafından mesaj başına verilecek xp **'+değer+'** olarak ayarlandı!\n `Suspects Seviye Sistemi`')
+  message.guild.owner.send('Seviye sistemi **'+message.member.user.username+'** ('+message.member.id+') tarafından mesaj başına verilecek xp **'+değer+'** olarak ayarlandı!\n `The Sky Rewards #Legit`')
 
   };
 exports.conf = {
